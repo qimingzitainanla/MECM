@@ -39,5 +39,5 @@ conda activate <Environment name>
 conda env update --file environment.yml
 
 # Or install via pip if environment.yml is not used
-pip install -r requirements.txt
+pip install -r requirements_MECM.txt
 ```
