@@ -210,4 +210,17 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## 3. Model Usage
+After completing the data preparation (generating simulated data or preprocessing raw data), you can directly run the Jupyter Notebook file to train and evaluate the MeCM-EDNet model.
 
+### 3.1 Prerequisites
+Ensure the following conditions are met before running the notebook:
+- The environment dependencies are installed correctly (see Section 1: Environment Dependencies)
+- The preprocessed data is saved in the `data/processed/` directory (see Section 2: Data Preparation)
+- Jupyter Notebook is installed (if not, run `pip install notebook`)
+
+### 3.2 Run the Notebook
+1. Launch Jupyter Notebook in the repository root directory:
+   ```bash
+   jupyter notebook
+   ```
