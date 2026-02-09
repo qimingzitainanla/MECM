@@ -41,3 +41,5 @@ conda env update --file environment.yml
 # Or install via pip if environment.yml is not used
 pip install -r requirements_MECM.txt
 ```
+## 2. Data Preparation
+### 2.1 Label Preparation
