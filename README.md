@@ -55,7 +55,7 @@ The data format is consistent for both original and simulated data, as follows:
    
 ### 2.2 Train/Test Data
 ```bash
-data/processed/
+data/
 ├── train/          
 │   ├── eeg_data.npy  # EEG features (shape: [n_train, 1, 62, 875])
 │   ├── emo_label.npy # Emotion labels (shape: [n_train, ])
@@ -84,7 +84,7 @@ CONFIG = {
     # Decision label categories (0=correct, 1=incorrect)
     "dec_label_classes": [0, 1],
     # Output root directory
-    "output_root": "data/processed/",
+    "output_root": "data/",
     # Random seed (ensures data reproducibility)
     "random_seed": 42
 }
@@ -216,7 +216,7 @@ After completing the data preparation (generating simulated data or preprocessin
 ### 3.1 Prerequisites
 Ensure the following conditions are met before running the notebook:
 - The environment dependencies are installed correctly (see Section 1: Environment Dependencies)
-- The preprocessed data is saved in the `data/processed/` directory (see Section 2: Data Preparation)
+- The preprocessed data is saved in the `data/` directory (see Section 2: Data Preparation)
 - Jupyter Notebook is installed (if not, run `pip install notebook`)
 
 ### 3.2 Run the Notebook
