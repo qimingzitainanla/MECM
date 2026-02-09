@@ -23,8 +23,10 @@ We provide two ways to install the dependencies (choose one according to your en
 ```bash
 # Install dependencies via requirements.txt
 pip install -r requirements_MECM.txt
+```
 
 #### Option 2: Using Conda (Recommended for GPU environment)
+```bash
 # Create a new conda environment
 conda create -n <Environment name, e.g., model-reproduce> python=<Python version>
 conda activate <Environment name>
@@ -34,3 +36,4 @@ conda env update --file environment.yml
 
 # Or install via pip if environment.yml is not used
 pip install -r requirements.txt
+```
