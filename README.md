@@ -19,6 +19,6 @@ This project is developed based on Python. The detailed environment dependencies
 We provide two ways to install the dependencies (choose one according to your environment):
 
 #### Option 1: Using pip (Python)
-
+```bash
 # Install dependencies via requirements.txt
 pip install -r requirements_MECM.txt
