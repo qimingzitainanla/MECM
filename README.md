@@ -5,16 +5,27 @@ While emotions have proven to play a crucial role in decision-making process, th
 This project is developed based on Python. The detailed environment dependencies and their versions are listed below, and you can also install them with the provided configuration file.
 ### 1.1 Core Dependencies
 scipy==1.10.1
+
 pandas==2.0.3
+
 numpy==1.24.4
+
 torch==2.1.0+cu118
+
 einops==0.7.0
+
 scikit-learn==1.3.2
+
 tqdm==4.66.2
+
 torcheeg==1.1.1
+
 mne==1.6.1
+
 torchaudio==2.1.0+cu118
+
 torchvision==0.16.0+cu118
+
 ### 1.2 One-Click Installation
 We provide two ways to install the dependencies (choose one according to your environment):
 
