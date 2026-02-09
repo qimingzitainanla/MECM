@@ -224,3 +224,7 @@ Ensure the following conditions are met before running the notebook:
    ```bash
    jupyter notebook
    ```
+2.In the Jupyter interface, navigate to the root directory of the repository and open the MECM_EDNet.ipynb file.
+3.Run all cells sequentially (or run cell by cell to debug step by step):
+-The notebook includes complete workflows: data loading, model initialization, training, evaluation, and result output.
+-All hyperparameters (learning rate, batch size, epochs, etc.) are predefined in the notebook (consistent with the paper's experimental settings).
