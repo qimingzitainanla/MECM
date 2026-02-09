@@ -44,12 +44,13 @@ pip install -r requirements_MECM.txt
 ## 2. Data Preparation
 ### 2.1 Data Format Description
 The data format is consistent for both original and simulated data, as follows:
+```bash
 ·Data Type: EEG signals / label data of emotion and decision-making behavior
 ·EEG Dimension: 62 channels × 875 time points (Sampling rate: 250 Hz）
 ·Label Sets: Two independent label sets are constructed to support multi-task learning of MeCM-EDNet:
   ·emo_label: Label set divided by emotion categories
     ·Label definition: <e.g., 0 = neutral, 1 = happy, 2 = fear, 3= sad>
   ·dec_label: Label set divided by decision correctness
-    ·Label definition: <e.g., 0 = incorrect decision, 1 = correct decision>
-
+    ·Label definition: <e.g., 0 = correct decision, 1 = incorrect decision>
+```
 
