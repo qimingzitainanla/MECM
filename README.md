@@ -230,3 +230,23 @@ Ensure the following conditions are met before running the notebook:
 
 - The notebook includes complete workflows: data loading, model initialization, training, evaluation, and result output.
 - All hyperparameters (learning rate, batch size, epochs, etc.) are predefined in the notebook (consistent with the paper's experimental settings).
+
+## Citation
+If you use this code or dataset in your research, please cite our paper.
+
+### IEEE Reference Format
+Y. Zhao, D. Wang, X. Gao and X. Wang, "MeCM-EDNet: An EEG Decision Prediction Model Incorporating Emotional Information Based on Multi-Task Learning," in IEEE Transactions on Affective Computing, vol. 17, no. 2, pp. 1860-1875, April-June 2026, doi: 10.1109/TAFFC.2026.3667794.
+
+### BibTeX Entry
+```bibtex
+@article{zhao2026mecmednet,
+  title={MeCM-EDNet: An EEG Decision Prediction Model Incorporating Emotional Information Based on Multi-Task Learning},
+  author={Y. Zhao and D. Wang and X. Gao and X. Wang},
+  journal={IEEE Transactions on Affective Computing},
+  volume={17},
+  number={2},
+  pages={1860--1875},
+  month={4--6},
+  year={2026},
+  doi={10.1109/TAFFC.2026.3667794}
+}
